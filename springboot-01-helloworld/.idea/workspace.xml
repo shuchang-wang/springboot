@@ -2,21 +2,331 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="449de74b-bd67-4a69-8a3c-b0d69218e3fa" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__junit_junit_4_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_37.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_37.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_springframework_spring_aop_5_2_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_springframework_spring_beans_5_2_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_springframework_spring_context_5_2_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_springframework_spring_core_5_2_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_springframework_spring_expression_5_2_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_springframework_spring_test_5_2_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_springframework_spring_web_5_2_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/springboot-config.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/src/main/java/com/alibaba/springbootconfig/SpringbootConfigApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/src/main/java/com/alibaba/springbootconfig/bean/Dog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/src/main/java/com/alibaba/springbootconfig/bean/Person.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/src/main/java/com/alibaba/springbootconfig/config/MyAppConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/src/main/java/com/alibaba/springbootconfig/controller/HelloController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/src/main/java/com/alibaba/springbootconfig/service/HelloService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/src/main/resources/application-dev.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/src/main/resources/application-prod.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/src/main/resources/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/src/main/resources/application.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/src/main/resources/beans.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/src/main/resources/person.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/src/test/java/com/alibaba/springbootconfig/SpringbootConfigApplicationTests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/classes/META-INF/spring-configuration-metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/classes/application-dev.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/classes/application-prod.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/classes/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/classes/application.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/classes/beans.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/classes/com/alibaba/springbootconfig/SpringbootConfigApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/classes/com/alibaba/springbootconfig/bean/Dog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/classes/com/alibaba/springbootconfig/bean/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/classes/com/alibaba/springbootconfig/config/MyAppConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/classes/com/alibaba/springbootconfig/controller/HelloController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/classes/com/alibaba/springbootconfig/service/HelloService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/classes/person.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/springboot-config-0.0.1-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/springboot-config-0.0.1-SNAPSHOT.jar.original" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/surefire-reports/TEST-com.alibaba.springbootconfig.SpringbootConfigApplicationTests.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/surefire-reports/com.alibaba.springbootconfig.SpringbootConfigApplicationTests.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config/target/test-classes/com/alibaba/springbootconfig/SpringbootConfigApplicationTests.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_springframework_spring_aop_4_3_13_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_springframework_spring_beans_4_3_13_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_springframework_spring_context_4_3_13_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_springframework_spring_core_4_3_13_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_springframework_spring_expression_4_3_13_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_springframework_spring_test_4_3_13_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_springframework_spring_web_4_3_13_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_13_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/config/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/springboot-config02.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/src/main/java/com/alibaba/springbootconfig02/SpringbootConfig02Application.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/src/main/java/com/alibaba/springbootconfig02/controller/HelloController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/src/main/resources/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/src/main/resources/application.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/src/main/resources/config/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/src/test/java/com/alibaba/springbootconfig02/SpringbootConfig02ApplicationTests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/target/classes/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/target/classes/application.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/target/classes/com/alibaba/springbootconfig02/SpringbootConfig02Application.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/target/classes/com/alibaba/springbootconfig02/controller/HelloController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/target/classes/config/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/target/springboot-config02-0.0.1-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/target/springboot-config02-0.0.1-SNAPSHOT.jar.original" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-config02/target/test-classes/com/alibaba/springbootconfig02/SpringbootConfig02ApplicationTests.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_37.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_37.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_2_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_springframework_spring_aop_5_2_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_springframework_spring_beans_5_2_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_springframework_spring_context_5_2_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_springframework_spring_core_5_2_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_springframework_spring_expression_5_2_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_springframework_spring_test_5_2_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_springframework_spring_web_5_2_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/springboot-helloworld-quick.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/src/main/java/com/alibaba/SpringbootHelloworldQuickApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/src/main/java/com/alibaba/controller/HelloController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/src/main/resources/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/src/main/resources/application.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/src/test/java/com/alibaba/SpringbootHelloworldQuickApplicationTests.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/target/classes/application.properties" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/target/classes/com/alibaba/springboot/SpringbootHelloworldQuickApplication.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/target/classes/com/alibaba/springboot/controller/HelloController.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/target/test-classes/com/alibaba/springboot/SpringbootHelloworldQuickApplicationTests.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-03-logging/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../springboot-03-logging/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-config/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../springboot-config/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-config02/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../springboot-config02/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-config02/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../springboot-config02/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-config02/src/test/java/com/alibaba/springbootconfig02/SpringbootConfig02ApplicationTests.java" afterPath="$PROJECT_DIR$/../springboot-config02/src/test/java/com/alibaba/springbootconfig02/SpringbootConfig02ApplicationTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../springboot-helloworld-quick/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/src/main/resources/application.yaml" afterPath="$PROJECT_DIR$/../springboot-helloworld-quick/src/main/resources/application.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/target/classes/application.properties" afterPath="$PROJECT_DIR$/../springboot-helloworld-quick/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_23.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_23.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_23.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_23.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_1_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_springframework_spring_aop_4_3_13_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_springframework_spring_beans_4_3_13_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_springframework_spring_context_4_3_13_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_springframework_spring_core_4_3_13_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_springframework_spring_expression_4_3_13_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_springframework_spring_web_4_3_13_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_13_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/springboot-01-helloworld.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/src/main/java/com/HelloWorldController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/src/main/java/com/alibaba/HelloWorldMainApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/src/main/java/com/alibaba/controller/HelloWorldController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/src/main/resources/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/src/main/resources/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/target/classes/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/target/classes/application.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/target/classes/com/HelloWorldController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/target/classes/com/alibaba/HelloWorldMainApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/target/classes/com/alibaba/controller/HelloWorldController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/target/springboot-helloworld-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld/target/springboot-helloworld-1.0-SNAPSHOT.jar.original" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-01-helloworld-quick/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../springboot-01-helloworld-quick/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-01-helloworld-quick/pom.xml" afterPath="$PROJECT_DIR$/../springboot-01-helloworld-quick/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-03-logging/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../springboot-03-logging/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,11 +349,11 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="HelloWorldMainApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/HelloWorldMainApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
+            <state relative-caret-position="138">
               <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -56,7 +366,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/HelloWorldController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+              <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,7 +388,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/controller/HelloWorldController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -143,8 +453,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="324" />
-    <option name="y" value="412" />
+    <option name="x" value="588" />
+    <option name="y" value="73" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -166,30 +476,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springboot-helloworld" type="1abcf292:AndroidViewProjectNode" />
-              <item name="springboot-helloworld" type="1039202d:NonAndroidModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Production">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="springboot-helloworld" type="cbb8eebc:String" user="springboot-helloworld" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -253,6 +539,30 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springboot-helloworld" type="1abcf292:AndroidViewProjectNode" />
+              <item name="springboot-helloworld" type="1039202d:NonAndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Production">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="springboot-helloworld" type="cbb8eebc:String" user="springboot-helloworld" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,6 +579,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="idea.background.editor" value="C:\picture\1.jpg,20,scale,center" />
     <property name="idea.background.frame" value="C:\picture\1.jpg,44,scale,center" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot-01-helloworld-quick" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -412,11 +723,12 @@
       <workItem from="1596347307123" duration="2238000" />
       <workItem from="1596350432879" duration="3000" />
       <workItem from="1596380429173" duration="191000" />
+      <workItem from="1596380772033" duration="219000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8210000" />
+    <option name="totallyTimeSpent" value="8429000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,6 +741,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.49785408" order="6" side_tool="false" content_ui="tabs" />
@@ -439,12 +752,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38089886" sideWeight="0.5064378" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35842696" sideWeight="0.49356222" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35842696" sideWeight="0.49356222" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43595505" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43595505" sideWeight="0.49785408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28540772" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28916308" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -474,6 +787,42 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/HelloWorldMainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/controller/HelloWorldController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/HelloWorldController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/controller/HelloWorldController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -684,7 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,7 +1068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="111" column="54" lean-forward="false" selection-start-line="111" selection-start-column="54" selection-end-line="111" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,14 +1089,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/controller/HelloWorldController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/HelloWorldMainApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="138">
           <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -760,7 +1107,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/HelloWorldController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
