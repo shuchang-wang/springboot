@@ -12,9 +12,10 @@ person:
 #  maps:
 #    k1: v1
 #    k2: v2
-  lists:
-    - 王二
-    - 麻子
+  lists: [王二,麻子]
+#  lists:
+#    - 王二
+#    - 麻子
   dog:
     name: 小花狗
     age: 9
