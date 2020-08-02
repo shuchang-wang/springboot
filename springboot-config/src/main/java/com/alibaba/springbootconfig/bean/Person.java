@@ -22,7 +22,7 @@ import java.util.Map;
 @Component
 @ConfigurationProperties(prefix = "person")
 //@Validated
-@PropertySource(value = {"classpath:person.properties"})
+//@PropertySource(value = {"classpath:person.properties"})
 public class Person {
     /**
      * <bean id="person" class="com.alibaba.springbootconfig.bean.person">
