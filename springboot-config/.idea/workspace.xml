@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a37a5da9-baae-4677-ae31-47500523c93f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_5_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_3_2_RELEASE.xml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/target/classes/com/alibaba/springboot/SpringbootHelloworldQuickApplication.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/target/classes/com/alibaba/springboot/controller/HelloController.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/target/test-classes/com/alibaba/springboot/SpringbootHelloworldQuickApplicationTests.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/alibaba/springbootconfig/bean/Person.class" afterPath="$PROJECT_DIR$/target/classes/com/alibaba/springbootconfig/bean/Person.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-config.iml" afterPath="$PROJECT_DIR$/springboot-config.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/alibaba/springbootconfig/bean/Dog.java" afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/springbootconfig/bean/Dog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/alibaba/springbootconfig/bean/Person.java" afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/springbootconfig/bean/Person.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" afterPath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../springboot-helloworld-quick/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../springboot-helloworld-quick/src/main/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springboot-helloworld-quick/src/main/resources/application.yaml" afterPath="$PROJECT_DIR$/../springboot-helloworld-quick/src/main/resources/application.yaml" />
@@ -22,14 +35,41 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/springboot_config$SpringbootConfigApplicationTests_contextLoads.coverage" NAME="SpringbootConfigApplicationTests.contextLoads Coverage Results" MODIFIED="1596360086460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.alibaba.springbootconfig.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            <state relative-caret-position="207">
+              <caret line="9" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="16" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/springbootconfig/bean/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,18 +77,28 @@
       <file leaf-file-name="application.yaml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+            <state relative-caret-position="193">
+              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringbootConfigApplicationTests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/springbootconfig/bean/Dog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringbootConfigApplicationTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/alibaba/springbootconfig/SpringbootConfigApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            <state relative-caret-position="253">
+              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding>
                 <element signature="e#539#540#0" expanded="true" />
                 <element signature="e#581#582#0" expanded="true" />
@@ -66,6 +116,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -77,12 +132,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/alibaba/springbootconfig/bean/Dog.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alibaba/springbootconfig/bean/Person.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/alibaba/springbootconfig/SpringbootConfigApplicationTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alibaba/springbootconfig/bean/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alibaba/springbootconfig/bean/Dog.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -105,9 +160,20 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot-config" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="369" />
-    <option name="y" value="195" />
+    <option name="x" value="229" />
+    <option name="y" value="492" />
     <option name="width" value="1376" />
     <option name="height" value="754" />
   </component>
@@ -371,53 +437,79 @@
       <workItem from="1596351537831" duration="973000" />
       <workItem from="1596352562200" duration="217000" />
       <workItem from="1596353107271" duration="21000" />
-      <workItem from="1596353668074" duration="2674000" />
+      <workItem from="1596353668074" duration="4818000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringbootConfigApplicationTests_contextLoads - 2020.08.02 at 16h 15m 21s.xml">
+    <history-entry file="SpringbootConfigApplicationTests_contextLoads - 2020.08.02 at 16h 21m 10s.xml">
       <configuration name="SpringbootConfigApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringbootConfigApplicationTests_contextLoads - 2020.08.02 at 16h 16m 16s.xml">
+    <history-entry file="SpringbootConfigApplicationTests_contextLoads - 2020.08.02 at 17h 06m 45s.xml">
+      <configuration name="SpringbootConfigApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootConfigApplicationTests_contextLoads - 2020.08.02 at 17h 11m 03s.xml">
+      <configuration name="SpringbootConfigApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootConfigApplicationTests_contextLoads - 2020.08.02 at 17h 18m 48s.xml">
+      <configuration name="SpringbootConfigApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootConfigApplicationTests_contextLoads - 2020.08.02 at 17h 19m 24s.xml">
+      <configuration name="SpringbootConfigApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootConfigApplicationTests_contextLoads - 2020.08.02 at 17h 19m 34s.xml">
+      <configuration name="SpringbootConfigApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootConfigApplicationTests_contextLoads - 2020.08.02 at 17h 20m 34s.xml">
+      <configuration name="SpringbootConfigApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootConfigApplicationTests_contextLoads - 2020.08.02 at 17h 21m 30s.xml">
+      <configuration name="SpringbootConfigApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootConfigApplicationTests_contextLoads - 2020.08.02 at 17h 22m 57s.xml">
+      <configuration name="SpringbootConfigApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringbootConfigApplicationTests_contextLoads - 2020.08.02 at 17h 23m 16s.xml">
       <configuration name="SpringbootConfigApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4123000" />
+    <option name="totallyTimeSpent" value="6267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44269663" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46629214" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28916308" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43595505" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46629214" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28916308" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,65 +591,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/springbootconfig/bean/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#592#593#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-          </folding>
+    <entry file="uml://MAVEN/com.alibaba:springboot-config:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.alibaba:springboot-config:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.alibaba:springboot-config:0.0.1-SNAPSHOT</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot:jar:2.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.2.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.2.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.13.3/org.apache.logging.log4j:log4j-api:jar:2.13.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.3.2.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.30</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.2.RELEASE/jakarta.annotation:jakarta.annotation-api:jar:1.3.5</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter:jar:2.3.2.RELEASE/org.yaml:snakeyaml:jar:1.26</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.11.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.11.1/com.fasterxml.jackson.core:jackson-annotations:jar:2.11.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.2.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.11.1/com.fasterxml.jackson.core:jackson-core:jar:2.11.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.11.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.2.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.11.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.3.2.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.11.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.37</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.3.2.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.37</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework:spring-web:jar:5.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework:spring-web:jar:5.2.8.RELEASE/org.springframework:spring-beans:jar:5.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.8.RELEASE/org.springframework:spring-aop:jar:5.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.8.RELEASE/org.springframework:spring-context:jar:5.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.3.2.RELEASE/org.springframework:spring-webmvc:jar:5.2.8.RELEASE/org.springframework:spring-expression:jar:5.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:2.3.2.RELEASE/org.aspectj:aspectjweaver:jar:1.9.6</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.2.RELEASE/com.zaxxer:HikariCP:jar:3.4.5</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-starter-jdbc:jar:2.3.2.RELEASE/org.springframework:spring-jdbc:jar:5.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/jakarta.transaction:jakarta.transaction-api:jar:1.3.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/jakarta.persistence:jakarta.persistence-api:jar:2.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.hibernate:hibernate-core:jar:5.4.18.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.hibernate:hibernate-core:jar:5.4.18.Final/org.jboss.logging:jboss-logging:jar:3.4.1.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.hibernate:hibernate-core:jar:5.4.18.Final/org.javassist:javassist:jar:3.24.0-GA</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.hibernate:hibernate-core:jar:5.4.18.Final/net.bytebuddy:byte-buddy:jar:1.10.13</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.hibernate:hibernate-core:jar:5.4.18.Final/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.hibernate:hibernate-core:jar:5.4.18.Final/org.jboss:jandex:jar:2.1.3.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.hibernate:hibernate-core:jar:5.4.18.Final/com.fasterxml:classmate:jar:1.5.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.hibernate:hibernate-core:jar:5.4.18.Final/org.dom4j:dom4j:jar:2.1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.hibernate:hibernate-core:jar:5.4.18.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.1.0.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.hibernate:hibernate-core:jar:5.4.18.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.hibernate:hibernate-core:jar:5.4.18.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.3/org.glassfish.jaxb:txw2:jar:2.3.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.hibernate:hibernate-core:jar:5.4.18.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.3/com.sun.istack:istack-commons-runtime:jar:3.0.11</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.hibernate:hibernate-core:jar:5.4.18.Final/org.glassfish.jaxb:jaxb-runtime:jar:2.3.3/com.sun.activation:jakarta.activation:jar:1.2.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.springframework.data:spring-data-jpa:jar:2.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.springframework.data:spring-data-jpa:jar:2.3.2.RELEASE/org.springframework.data:spring-data-commons:jar:2.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.springframework.data:spring-data-jpa:jar:2.3.2.RELEASE/org.springframework:spring-orm:jar:5.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.springframework.data:spring-data-jpa:jar:2.3.2.RELEASE/org.springframework:spring-tx:jar:5.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.springframework.data:spring-data-jpa:jar:2.3.2.RELEASE/org.slf4j:slf4j-api:jar:1.7.30</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-data-jpa:jar:2.3.2.RELEASE/org.springframework:spring-aspects:jar:5.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-validation:jar:2.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-validation:jar:2.3.2.RELEASE/org.glassfish:jakarta.el:jar:3.0.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-validation:jar:2.3.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.1.5.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-validation:jar:2.3.2.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.1.5.Final/jakarta.validation:jakarta.validation-api:jar:2.0.2</node>
+            <node x="" y="">org.projectlombok:lombok:jar:1.18.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-test:jar:2.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3/jakarta.activation:jakarta.activation-api:jar:1.2.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.assertj:assertj-core:jar:3.16.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.hamcrest:hamcrest:jar:2.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2/org.apiguardian:apiguardian-api:jar:1.1.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2/org.opentest4j:opentest4j:jar:1.2.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-api:jar:5.6.2/org.junit.platform:junit-platform-commons:jar:1.6.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-params:jar:5.6.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-engine:jar:5.6.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.junit.jupiter:junit-jupiter:jar:5.6.2/org.junit.jupiter:junit-jupiter-engine:jar:5.6.2/org.junit.platform:junit-platform-engine:jar:1.6.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.mockito:mockito-core:jar:3.3.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.mockito:mockito-core:jar:3.3.3/net.bytebuddy:byte-buddy-agent:jar:1.10.13</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.mockito:mockito-core:jar:3.3.3/org.objenesis:objenesis:jar:2.6</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.mockito:mockito-junit-jupiter:jar:3.3.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.springframework:spring-core:jar:5.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.springframework:spring-core:jar:5.2.8.RELEASE/org.springframework:spring-jcl:jar:5.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.springframework:spring-test:jar:5.2.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.3.2.RELEASE/org.xmlunit:xmlunit-core:jar:2.7.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-configuration-processor:jar:2.3.2.RELEASE</node>
+            <node x="" y="">junit:junit:jar:4.13</node>
+            <node x="" y="">junit:junit:jar:4.13/org.hamcrest:hamcrest-core:jar:2.2</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0339373970345962" x="3014.5253747457755" y="711.0916695146398" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="207">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/springbootconfig/bean/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="224">
+          <caret line="43" column="20" lean-forward="true" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/alibaba/springbootconfig/bean/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        <state relative-caret-position="138">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/alibaba/springbootconfig/SpringbootConfigApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="253">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding>
             <element signature="e#539#540#0" expanded="true" />
             <element signature="e#581#582#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

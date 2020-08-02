@@ -1,21 +1,21 @@
-server:
-  port: 8082
-#spring:
-#  profiles:
-#    active: dev
-person:
-  lastName: 张三
-  age: 18
-  boss: false
-  birth: 2020/08/02
-  maps: {k1: v1,k2: v2}
-#  maps:
-#    k1: v1
-#    k2: v2
-  lists: [王二,麻子]
-#  lists:
-#    - 王二
-#    - 麻子
-  dog:
-    name: 小花狗
-    age: 9
+#server:
+#  port: 8082
+##spring:
+##  profiles:
+##    active: dev
+#person:
+#  lastName: 张三
+#  age: 18
+#  boss: false
+#  birth: 2020/08/02
+#  maps: {k1: v1,k2: v2}
+##  maps:
+##    k1: v1
+##    k2: v2
+#  lists: [王二,麻子]
+##  lists:
+##    - 王二
+##    - 麻子
+#  dog:
+#    name: 小花狗
+#    age: 9

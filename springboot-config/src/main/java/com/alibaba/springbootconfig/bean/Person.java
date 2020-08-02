@@ -1,8 +1,11 @@
 package com.alibaba.springbootconfig.bean;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
+import org.springframework.validation.annotation.Validated;
 
+import javax.validation.constraints.Email;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -17,10 +20,24 @@ import java.util.Map;
  */
 @Component
 @ConfigurationProperties(prefix = "person")
+@Validated
 public class Person {
+    /**
+     * <Bean class="person">
+     *      <property name="lastName" value="字面量/${key}从环境变量、配置文件中获取值/#{SpEL}"></>property
+     *  </Bean>
+     */
+
+//    @Value("${person.lastName}")
+//    @Email
     private String lastName;
+
+//    @Value("#{11*2}")
     private int age;
+
+//    @Value("true")
     private boolean bosss;
+
     private Date birth;
     private Map<String, Object> maps;
     private List<String> lists;
