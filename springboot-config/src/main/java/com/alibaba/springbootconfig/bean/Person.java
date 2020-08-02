@@ -2,6 +2,7 @@ package com.alibaba.springbootconfig.bean;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.annotation.Validated;
 
@@ -20,12 +21,13 @@ import java.util.Map;
  */
 @Component
 @ConfigurationProperties(prefix = "person")
-@Validated
+//@Validated
+@PropertySource(value = {"classpath:person.properties"})
 public class Person {
     /**
-     * <Bean class="person">
-     *      <property name="lastName" value="字面量/${key}从环境变量、配置文件中获取值/#{SpEL}"></>property
-     *  </Bean>
+     * <bean id="person" class="com.alibaba.springbootconfig.bean.person">
+     *         <property name="lastName" value="字面量/${key}从环境变量、配置文件中获取值/#{SpEL}"></>property
+     *  </bean>
      */
 
 //    @Value("${person.lastName}")
