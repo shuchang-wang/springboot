@@ -13,13 +13,13 @@
 	</head>
 
 	<body class="text-center">
-		<form class="form-signin" action="dashboard.html">
+		<form class="form-signin" action="dashboard.html" th:action="@{/user/login}" method="post">
 			<img class="mb-4" src="/asserts/img/bootstrap-solid.svg" th:src="@{/asserts/img/bootstrap-solid.svg}" alt="" width="72" height="72">
 			<h1 class="h3 mb-3 font-weight-normal" th:text="#{login.tip}">Please sign in</h1>
 			<label class="sr-only" th:text="#{login.username}">Username</label>
-			<input type="text" class="form-control" placeholder="Username" th:placeholder="#{login.username}" required="" autofocus="">
+			<input type="text" class="form-control" placeholder="Username" th:placeholder="#{login.username}"  name="username" required="" autofocus="">
 			<label class="sr-only" th:text="#{login.password}">Password</label>
-			<input type="password" class="form-control" placeholder="Password" th:placeholder="#{login.password}" required="">
+			<input type="password" class="form-control" placeholder="Password" th:placeholder="#{login.password}" name="password" required="">
 			<div class="checkbox mb-3">
 				<label>
           <input type="checkbox" value="remember-me"/> [[#{login.remember}]]
