@@ -20,6 +20,8 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
+ * @Aspect注解定义切面类
+ * @Configuration注解定义spring配置文件类似于<bean id="" class=""></bean>
  * 加入日志切面
  */
 @Aspect
@@ -73,9 +75,9 @@ public class LogAspectConfig {
         logger.info("Request Args   : {}", params);
         // 获取返回结果
         Object result = joinPoint.proceed();
-        logger.info("Return         : {}", JSON.toJSON(result));
+        logger.info("Response Args  : {}", JSON.toJSON(result));
         long endTime = System.currentTimeMillis();
-        logger.info("WastTime       : {}ms", (endTime - startTime));
+        logger.info("Time-Consuming : {}ms", (endTime - startTime));
         logger.info("========================================== Ended ==========================================");
         return result;
     }
