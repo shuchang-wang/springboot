@@ -62,18 +62,18 @@
                 <div class="form-group">
                     <label>Gender</label><br/>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" th:checked="${employee!=null}?${employee.gender==1}" name="gender" value="1">
+                        <input class="form-check-input" type="radio" th:checked="${employee.gender==1}" name="gender" value="1">
                         <label class="form-check-label">男</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" th:checked="${employee!=null}?${employee.gender==0}" name="gender" value="0">
+                        <input class="form-check-input" type="radio" th:checked="${employee.gender==0}" name="gender" value="0">
                         <label class="form-check-label">女</label>
                     </div>
                 </div>
                 <div class="form-group">
                     <label>department</label>
                     <select class="form-control" name="department.id">
-                        <option th:each="department:${departments}" th:selected="${employee!=null}?${department.id == employee.department.id}" th:value="${department.id}" th:text="${department.departmentName}"></option>
+                        <option th:each="department:${departments}" th:selected="${department.id == employee.department.id}" th:value="${department.id}" th:text="${department.departmentName}"></option>
                     </select>
                 </div>
                 <div class="form-group">
