@@ -12,7 +12,7 @@ import java.util.Map;
 @Controller
 public class LoginController {
 
-    Logger logger = LoggerFactory.getLogger(getClass());
+    private static Logger logger = LoggerFactory.getLogger(EmployeeController.class);
 
     /**
      * @param username

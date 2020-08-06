@@ -79,12 +79,12 @@
                         <!--<td th:text="${emp.birth}"></td>-->
                         <td th:text="${#dates.format(emp.birth, 'yyyy-MM-dd HH:mm:ss:SSS')}"></td>
                         <td>
-                            <button name="id" th:value="${emp.id}" class="btn btn-sm btn-primary" th:action="@{/emp/{id}(id=${emp.id})}" method="put">
+                            <a name="id" th:value="${emp.id}" class="btn btn-sm btn-primary" th:href="@{/emp/{id}(id=${emp.id})}" method="get">
                                 编辑
-                            </button>
-                            <button name="id" th:value="${emp.id}" class="btn btn-sm btn-danger" th:action="@{/emp/{id}(id=${emp.id})}"
+                            </a>
+                            <a name="id" th:value="${emp.id}" class="btn btn-sm btn-danger" th:href="@{/emp/{id}(id=${emp.id})}"
                                     method="delete">删除
-                            </button>
+                            </a>
                         </td>
                     </tr>
                     <!--<tr>
