@@ -48,7 +48,7 @@
 			<input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search" name="lastName">
 			<ul class="navbar-nav px-3">
 				<li class="nav-item text-nowrap">
-					<a class="nav-link" href="http://getbootstrap.com/docs/4.0/examples/dashboard/#">Sign out</a>
+					<a class="nav-link" href="http://getbootstrap.com/docs/4.0/examples/dashboard/#" th:href="@{/user/logout/{username}(username=${session.loginUser})}">Sign out</a>
 				</li>
 			</ul>
 		</nav>
@@ -192,7 +192,10 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr>
+								<tr th:each="emp : ${emps}">
+									<td th:text="${emp}"></td>
+								</tr>
+								<!--<tr>
 									<td>1,001</td>
 									<td>Lorem</td>
 									<td>ipsum</td>
@@ -303,7 +306,7 @@
 									<td>ligula</td>
 									<td>in</td>
 									<td>libero</td>
-								</tr>
+								</tr>-->
 							</tbody>
 						</table>
 					</div>
