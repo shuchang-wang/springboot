@@ -5,6 +5,7 @@ import com.alibaba.springboot.component.MyLocaleResolver;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.LocaleResolver;
+import org.springframework.web.servlet.config.annotation.InterceptorRegistration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
@@ -44,8 +45,24 @@ public class MyMVCConfig extends WebMvcConfigurerAdapter {
     //注册拦截器
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
+        InterceptorRegistration registration = null;
         //super.addInterceptors(registry);
         //静态资源 css/js/image     springboot已经做好静态资源映射了，无需进行处理
-        registry.addInterceptor(new LoginHandlerInterceptor()).addPathPatterns("/**").excludePathPatterns("/", "/index.html", "/user/login","/user/logout");
+        //方式一：拦截器中没有依赖注入时使用该方式
+        //registration = registry.addInterceptor(new LoginHandlerInterceptor());
+
+        //方式二：拦截器中没有依赖注入时使用该方式
+        registration = registry.addInterceptor(handlerLoginHandlerInterceptorNotAutoWiredQuestion());
+        registration.addPathPatterns("/**").excludePathPatterns("/", "/index.html", "/user/login", "/user/logout");
+    }
+
+    /**
+     * 解决拦截器中不能依赖注入的问题
+     *
+     * @return
+     */
+    @Bean
+    public LoginHandlerInterceptor handlerLoginHandlerInterceptorNotAutoWiredQuestion() {
+        return new LoginHandlerInterceptor();
     }
 }
