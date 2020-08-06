@@ -25,10 +25,10 @@ public class LoginHandlerInterceptor implements HandlerInterceptor {
     //目标方法执行之前
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object o) throws Exception {
-        logger.info("测试拦截器中能否注入依赖开始。。。。。。。。。。。。。");
-        logger.info("注入的employeeDao依赖值是：{}",employeeDao);
-        Collection<Employee> employees = employeeDao.getAll();
-        logger.info("测试拦截器中能否注入依赖结束。。。。。。。。。。。。。");
+//        logger.info("测试拦截器中能否注入依赖开始。。。。。。。。。。。。。");
+//        logger.info("注入的employeeDao依赖值是：{}",employeeDao);
+//        Collection<Employee> employees = employeeDao.getAll();
+//        logger.info("测试拦截器中能否注入依赖结束。。。。。。。。。。。。。");
         logger.info("拦截器开始执行。。。。。。");
         HttpSession session = request.getSession();
         Object user = session.getAttribute("loginUser");
