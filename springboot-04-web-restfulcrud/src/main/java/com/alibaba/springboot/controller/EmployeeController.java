@@ -56,7 +56,6 @@ public class EmployeeController {
     //SpringMVC自动将请求参数和入参对象的属性进行一一绑定；要求请求参数的名字和JavaBean入参的对象里面的属性名一样
     @PostMapping(name = "添加成员", value = "/emp")
     public String addEmployee(Employee employee) {
-        logger.info("{}", employee);
         employeeDao.save(employee);
         //forward:请求转发  表示转发到一个地址
         //redirect:重定向   表示重定向到一个地址 /代表当前项目路径
@@ -90,7 +89,6 @@ public class EmployeeController {
     //SpringMVC自动将请求参数和入参对象的属性进行一一绑定；要求请求参数的名字和JavaBean入参的对象里面的属性名一样
     @PutMapping(name = "修改员工", value = "/emp")
     public String updateEmployee(Employee employee) {
-        logger.info("{}", employee);
         employeeDao.save(employee);
         //forward:请求转发  表示转发到一个地址
         //redirect:重定向   表示重定向到一个地址 /代表当前项目路径

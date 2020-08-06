@@ -72,7 +72,7 @@ public class LogAspectConfig {
             }
         }
         // 打印请求入参
-        logger.info("Request Args   : {}", params);
+        logger.info("Request Args   : {}", args);
         // 获取返回结果
         Object result = joinPoint.proceed();
         logger.info("Response Args  : {}", JSON.toJSON(result));
