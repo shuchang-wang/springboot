@@ -42,11 +42,24 @@
             <artifactId>bootstrap</artifactId>
             <version>4.0.0</version>
         </dependency>
+        <!--引入thymeleaf模板引擎-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
             <!--2.1.6默认自带版本-->
         </dependency>
+        <!--引入springboot-aop模块-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        <!--引入fastjson-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.69</version>
+        </dependency>
+        <!--引入springboot-test模块-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>

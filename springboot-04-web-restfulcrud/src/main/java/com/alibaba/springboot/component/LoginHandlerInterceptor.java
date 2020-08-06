@@ -1,6 +1,5 @@
 package com.alibaba.springboot.component;
 
-import com.alibaba.springboot.dao.DepartmentDao;
 import com.alibaba.springboot.dao.EmployeeDao;
 import com.alibaba.springboot.entities.Employee;
 import org.slf4j.Logger;
