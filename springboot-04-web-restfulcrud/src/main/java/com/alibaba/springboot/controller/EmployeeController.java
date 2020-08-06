@@ -27,4 +27,8 @@ public class EmployeeController {
         return "emp/list";
     }
 
+    @GetMapping(name = "添加员工",value = "/emp")
+    public String toAddPage(){
+        return "emp/add";
+    }
 }
