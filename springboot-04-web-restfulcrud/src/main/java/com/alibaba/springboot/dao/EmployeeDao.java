@@ -1,7 +1,7 @@
 package com.alibaba.springboot.dao;
 
-import com.alibaba.springboot.entities.Department;
-import com.alibaba.springboot.entities.Employee;
+import com.alibaba.springboot.domain.Department;
+import com.alibaba.springboot.domain.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 

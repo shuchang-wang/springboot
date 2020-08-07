@@ -2,8 +2,8 @@ package com.alibaba.springboot.controller;
 
 import com.alibaba.springboot.dao.DepartmentDao;
 import com.alibaba.springboot.dao.EmployeeDao;
-import com.alibaba.springboot.entities.Department;
-import com.alibaba.springboot.entities.Employee;
+import com.alibaba.springboot.domain.Department;
+import com.alibaba.springboot.domain.Employee;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

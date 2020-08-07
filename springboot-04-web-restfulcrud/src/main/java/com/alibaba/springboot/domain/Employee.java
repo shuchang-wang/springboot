@@ -1,4 +1,4 @@
-package com.alibaba.springboot.entities;
+package com.alibaba.springboot.domain;
 
 import java.util.Date;
 

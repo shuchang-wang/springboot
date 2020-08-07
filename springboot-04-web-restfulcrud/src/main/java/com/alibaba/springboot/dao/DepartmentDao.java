@@ -1,7 +1,7 @@
 package com.alibaba.springboot.dao;
 
 
-import com.alibaba.springboot.entities.Department;
+import com.alibaba.springboot.domain.Department;
 import org.springframework.stereotype.Repository;
 
 import java.util.Collection;
