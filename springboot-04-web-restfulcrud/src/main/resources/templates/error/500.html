@@ -52,6 +52,12 @@
         <div th:replace="commons/bar::#sideBar(activeUri='emps')"></div>
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
             <h1>500</h1>
+            <h6>Status：     [[${status}]]</h6>
+            <h6>Error：      [[${error}]]</h6>
+            <h6>Timestamp：  [[${timestamp}]]</h6>
+            <h6>Message：    [[${message}]]</h6>
+            <h6 th:text="Exception：+${exception}" th:if="${exception}!=null">Exception：</h6>
+            <h6 th:text="Errors：+${errors}" th:if="${errors}!=null">Errors：</h6>
         </main>
     </div>
 </div>
