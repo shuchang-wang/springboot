@@ -77,7 +77,10 @@ public class EmployeeController {
         Collection<Department> departments = departmentDao.getDepartments();
         model.addAttribute("departments", departments);
         model.addAttribute("employee", employee);
+        //如果需要复用add界面的话，重定向到add界面
         return "emp/add";
+        //如果不想复用add界面的话，重定向到edit界面
+        //return "emp/edit";
     }
 
     /**

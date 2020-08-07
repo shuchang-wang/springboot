@@ -51,6 +51,8 @@
         <div th:replace="commons/bar::#sideBar(activeUri='employees')"></div>
         <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
             <form method="post" th:action="@{/emp}">
+                <input type="hidden" name="_method" th:value="put">
+                <input type="hidden" th:value="${employee.id}" name="id">
                 <div class="form-group">
                     <label>LastName</label>
                     <input type="text" class="form-control" name="lastName" th:value="${employee.lastName}" placeholder="zhangsan">
