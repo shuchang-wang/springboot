@@ -52,8 +52,8 @@ public class MyMVCConfig extends WebMvcConfigurerAdapter {
         //registration = registry.addInterceptor(new LoginHandlerInterceptor());
 
         //方式二：拦截器中没有依赖注入时使用该方式
-        registration = registry.addInterceptor(handlerLoginHandlerInterceptorNotAutoWiredQuestion());
-        registration.addPathPatterns("/**").excludePathPatterns("/", "/index.html", "/user/login", "/user/logout");
+//        registration = registry.addInterceptor(handlerLoginHandlerInterceptorNotAutoWiredQuestion());
+//        registration.addPathPatterns("/**").excludePathPatterns("/", "/index.html", "/user/login", "/user/logout","/kindeditor/upload");
     }
 
     /**

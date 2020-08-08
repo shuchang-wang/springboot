@@ -1,12 +1,10 @@
 package com.alibaba.springboot.controller;
 
+import com.alibaba.springboot.exception.UserNotExistException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -32,7 +30,10 @@ public class HelloController {
     //method = RequestMethod.GET/POST/PUT/DELETE/HEAD/OPTIONS/PATCH/TRACE
     @RequestMapping(name = "hello", value = "/hello", method = RequestMethod.GET)
     @ResponseBody
-    public String sayHello() {
+    public String sayHello(@RequestParam(value = "username",required = false) String username) {
+        if ("aaa".equals(username)) {
+            throw new UserNotExistException();
+        }
         return "Hello EveryBody!";
     }
 
