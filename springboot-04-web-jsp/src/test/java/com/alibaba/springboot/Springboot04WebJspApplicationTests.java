@@ -1,13 +1,13 @@
 package com.alibaba.springboot;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Springboot04WebJspApplicationTests {
+public class Springboot04WebJspApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
 	}
 
 }
