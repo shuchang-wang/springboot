@@ -35,8 +35,8 @@ spring:
 
 #mybatis的相关配置
 mybatis:
-  config-location: classpath:mybatis/mybatis-conf.xml #Mybatis的主配置文件
-  mapper-locations: mybatis/mapper/*.xml  #Mybatis的mapper映射xml文件
+  config-location: classpath:mybatis/mybatis-conf.xml #指定全局配置文件的位置
+  mapper-locations: mybatis/mapper/*.xml  #指定SQL映射文件的位置
 #  check-config-location: true
 #  configuration-properties:
 #  default-scripting-language-driver: org.apache.ibatis.scripting.defaults.RawLanguageDriver
