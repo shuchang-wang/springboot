@@ -34,10 +34,10 @@ spring:
     connectionProperties: druid.stat.mergeSql:true;druid.stat.slowSqlMillis:500
 
 #mybatis的相关配置
-#mybatis:
+mybatis:
+  config-location: classpath:mybatis/mybatis-conf.xml #Mybatis的主配置文件
+  mapper-locations: mybatis/mapper/*.xml  #Mybatis的mapper映射xml文件
 #  check-config-location: true
-#  mapper-locations:
-#  config-location: config-location: classpath:*.xml
 #  configuration-properties:
 #  default-scripting-language-driver: org.apache.ibatis.scripting.defaults.RawLanguageDriver
 #  executor-type: batch

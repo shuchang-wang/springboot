@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.alibaba.springboot.mapper.EmployeeMapper">
+    <!--
+        @Select("select * from employee")
+        List<Employee> getEmployeeAll();
+    -->
+    <select id="getEmployeeAll" resultType="com.alibaba.springboot.bean.Employee">
+        select * from employee
+    </select>
+
+    <!--
+        @Select("select * from employee where id =#{id}")
+        Employee getEmployeeById(Integer id);
+    -->
+    <select id="getEmployeeById" resultType="com.alibaba.springboot.bean.Employee" parameterType="java.lang.Integer">
+        select * from employee where id = #{id}
+    </select>
+
+    <!--
+        @Insert("insert into employee(lastName,email,gender,d_id) values(#{lastName},#{email},#{gender},#{bId})")
+        int insertEmployee(Employee employee);
+    -->
+    <insert id="insertEmployee" parameterType="com.alibaba.springboot.bean.Employee">
+      insert into employee(lastName,email,gender,d_id) values(#{lastName},#{email},#{gender},#{bId})
+    </insert>
+
+    <!--
+        @Update("update employee set lastName=#{lastName},email=#{email},gender=#{gender},d_id=#{bId} where id=#{id}")
+        int updateEmployee(Employee employee);
+    -->
+    <update id="updateEmployee" parameterType="com.alibaba.springboot.bean.Employee">
+        update employee set lastName=#{lastName},email=#{email},gender=#{gender},d_id=#{bId} where id=#{id}
+    </update>
+
+    <!--
+        @Delete("delete from employee where id =#{id}")
+        int deleteEmployeeById(Integer id);
+    -->
+    <delete id="deleteEmployeeById" parameterType="java.lang.Integer">
+      delete from employee where id =#{id}
+    </delete>
+</mapper>
