@@ -32,3 +32,18 @@ spring:
     spring.datasourcemaxPoolPreparedStatementPerConnectionSize: 20
     useGlobalDataSourceStat: true
     connectionProperties: druid.stat.mergeSql:true;druid.stat.slowSqlMillis:500
+
+#mybatis的相关配置
+#mybatis:
+#  check-config-location: true
+#  mapper-locations:
+#  config-location: config-location: classpath:*.xml
+#  configuration-properties:
+#  default-scripting-language-driver: org.apache.ibatis.scripting.defaults.RawLanguageDriver
+#  executor-type: batch
+#  type-aliases-package:
+#  configuration:
+#    caches:
+#    cache-enabled: true
+#  type-handlers-package:
+#  type-aliases-super-type: java.lang.Object
