@@ -1,5 +1,4 @@
 org.springframework.context.ApplicationContextInitializer=\
   com.alibaba.springboot.Listener.HelloApplicationContextInitializer
-
 org.springframework.boot.SpringApplicationRunListener=\
   com.alibaba.springboot.Listener.HelloApplicationListener
