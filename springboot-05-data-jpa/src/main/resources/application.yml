@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    #\u6570\u636E\u5E93\u7684\u57FA\u672C\u914D\u7F6E
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.21.148:3306/jpa?&autoReconnect=true&failOverReadOnly=false&useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false
+
+  #JPA\u7684\u914D\u7F6E
+  jpa:
+    #\u63A7\u5236\u53F0\u663E\u793ASQL
+    show-sql: true
+    hibernate:
+      #\u66F4\u65B0\u6216\u8005\u521B\u5EFA\u8868\u7ED3\u6784
+      ddl-auto: update
