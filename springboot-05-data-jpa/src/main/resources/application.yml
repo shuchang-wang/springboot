@@ -1,21 +1,23 @@
 server:
   port: 8080
+
 spring:
+#数据库配置
   datasource:
-    #\u6570\u636E\u5E93\u7684\u57FA\u672C\u914D\u7F6E
+    #数据库的基本配置
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.21.148:3306/jpa?&autoReconnect=true&failOverReadOnly=false&useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false
 
-  #JPA\u7684\u914D\u7F6E
+#JPA的配置
   jpa:
-    #\u63A7\u5236\u53F0\u663E\u793ASQL
-    show-sql: true  #\u9ED8\u8BA4\u662Ffalse
+    #控制台显示SQL
+    show-sql: true  #默认是false
     hibernate:
-      #\u66F4\u65B0\u6216\u8005\u521B\u5EFA\u8868\u7ED3\u6784
+      #更新或者创建表结构
       ddl-auto: update
     properties:
       hibernate:
-        #\u8BE5\u9009\u9879\u4F9D\u8D56\u4E8Eshow-sql\u7684\u503C\u662F\u5426\u5F00\u542F\u6253\u5370\u63A7\u5236\u53F0\u3002\u63A7\u5236\u53F0\u6253\u5370\u7684SQL\u683C\u5F0F\u5316\u8F93\u51FA\uFF0Ctrue\uFF1A\u5C06\u4F1A\u7F8E\u5316\u683C\u5F0F\u5316\u6210\u591A\u884C\u5C55\u793A\uFF0Cfalse\uFF1A\u5C06\u5728\u63A7\u5236\u53F0\u4EE5\u4E00\u884C\u8F93\u51FA\u5C55\u793A
-        format_sql: false #\u9ED8\u8BA4\u662Ffalse
+        #该选项依赖于show-sql的值是否开启打印控制台。控制台打印的SQL格式化输出，true：将会美化格式化成多行展示，false：将在控制台以一行输出展示
+        format_sql: false #默认是false
