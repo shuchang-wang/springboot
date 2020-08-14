@@ -10,12 +10,13 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     #切换指定的数据源
     type: com.alibaba.druid.pool.DruidDataSource
-    schema: #DDL语言  项目启动时执行建表语句
-      - classpath:sql/department.sql
-      - classpath:sql/employee.sql
-    data: #DML语言    项目启动时执行插入sql语句
-      - classpath:sql/department-data.sql
-      - classpath:sql/employee-data.sql
+#第一次时使用，再次启动时注释掉以免每次都进行执行
+#    schema: #DDL语言  项目启动时执行建表语句
+#      - classpath:sql/department.sql
+#      - classpath:sql/employee.sql
+#    data: #DML语言    项目启动时执行插入sql语句
+#      - classpath:sql/department-data.sql
+#      - classpath:sql/employee-data.sql
 
     #数据源其他配置
     initialSize: 5
@@ -38,4 +39,17 @@ spring:
 #mybatis的相关配置
 mybatis:
   config-location: classpath:mybatis/mybatis-conf.xml #指定全局配置文件的位置
-  mapper-locations: mybatis/mapper/*.xml  #指定SQL映射文件的位置
+  mapper-locations: mybatis/mapper/*.xml   #指定SQL映射文件的位置
+#  configuration:
+#    map-underscore-to-camel-case: true #开启驼峰命名规则
+
+
+#debug: true
+
+#打印日志 mapper下的所有日志都进行debug级别打印
+logging:
+  level:
+    com:
+      alibaba:
+        springboot:
+          mapper: debug
