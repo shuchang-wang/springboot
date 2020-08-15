@@ -16,4 +16,6 @@ public interface IEmployeeService {
     int insertEmployee(Employee employee);
 
     Employee updateEmployee(Employee employee);
+
+    Employee getEmployeeByLastName(String lastName);
 }

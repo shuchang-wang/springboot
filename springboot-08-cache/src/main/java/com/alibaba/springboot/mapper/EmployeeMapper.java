@@ -2,6 +2,7 @@ package com.alibaba.springboot.mapper;
 
 import com.alibaba.springboot.domain.Employee;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
@@ -17,6 +18,10 @@ public interface EmployeeMapper {
 
     //    @Select("select * from employee where id =#{id}")
     Employee getEmployeeById(Integer id);
+
+    //@Select("select * from employee where last_name =#{lastName}")
+    Employee getEmployeeByLastName(String lastName);
+
 
     //    @Insert("insert into employee(lastName,email,gender,d_id) values(#{lastName},#{email},#{gender},#{dId})")
     int insertEmployee(Employee employee);

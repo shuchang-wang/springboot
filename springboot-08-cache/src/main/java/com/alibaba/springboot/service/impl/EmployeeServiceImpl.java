@@ -6,13 +6,13 @@ import com.alibaba.springboot.service.IEmployeeService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cache.annotation.CachePut;
-import org.springframework.cache.annotation.Cacheable;
+import org.springframework.cache.annotation.*;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
+@CacheConfig(cacheNames = "emp")//抽取缓存的公共配置
 public class EmployeeServiceImpl implements IEmployeeService {
 
     private static Logger logger = LoggerFactory.getLogger(EmployeeServiceImpl.class);
@@ -91,21 +91,11 @@ public class EmployeeServiceImpl implements IEmployeeService {
      */
     @Override
 //    @Cacheable(cacheNames = "emp",key = "#root.method+'['+#id+']'")
-    @Cacheable(cacheNames = "emp"/*,keyGenerator = "myKeyGenerator",condition="#a0>1",unless="#a0==2"*/)
+    @Cacheable(value = "emp"/*,keyGenerator = "myKeyGenerator",condition="#a0>1",unless="#a0==2"*/)
     //第一个参数的值>1的时候才进行缓存,并且第一个参数的值是2是不缓存
     public Employee getEmployeeById(Integer id) {
         logger.info("查询第{}号员工", id);
         return employeeMapper.getEmployeeById(id);
-    }
-
-    @Override
-    public int deleteEmployeeById(Integer id) {
-        return employeeMapper.deleteEmployeeById(id);
-    }
-
-    @Override
-    public int insertEmployee(Employee employee) {
-        return employeeMapper.insertEmployee(employee);
     }
 
     /**
@@ -141,4 +131,50 @@ public class EmployeeServiceImpl implements IEmployeeService {
         employeeMapper.updateEmployee(employee);
         return employee;
     }
+
+    /**
+     *
+     * @CacheEvict：清除缓存
+     * key：指定要删除的数据id的缓存
+     * allEntries = true：指定清除哲哥缓存中所有的数据
+     * beforeInvocation = false：缓存的清除是否在方法之前执行
+     *      默认代表是在方法执行之后执行
+     * beforeInvocation = true：代表清除缓存操作是在方法运行之前执行，无论方法是否出现异常，缓存都清除。
+     *
+     * @param id
+     * @return
+     */
+    @Override
+    @CacheEvict(value = "emp",/*key = "#id",allEntries = true,*/beforeInvocation = true)
+    public int deleteEmployeeById(Integer id) {
+        logger.info("删除第{}号员工信息",id);
+//        int i=1/0;
+        return employeeMapper.deleteEmployeeById(id);
+    }
+
+    /**
+     * @Caching：定义复杂的缓存规则
+     *
+     * @param lastName
+     * @return
+     */
+    @Override
+    @Caching(
+        cacheable={
+            @Cacheable(/*value = "emp",*/key = "#lastName")
+        },
+        put = {
+            @CachePut(/*value = "emp",*/key = "#result.id"),
+            @CachePut(/*value = "emp",*/key = "#result.email"),
+        }
+    )
+    public Employee getEmployeeByLastName(String lastName){
+        return employeeMapper.getEmployeeByLastName(lastName);
+    }
+
+    @Override
+    public int insertEmployee(Employee employee) {
+        return employeeMapper.insertEmployee(employee);
+    }
+
 }
