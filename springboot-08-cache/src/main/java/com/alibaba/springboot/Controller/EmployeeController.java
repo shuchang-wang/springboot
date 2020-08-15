@@ -23,17 +23,17 @@ public class EmployeeController {
         return employeeService.getEmployeeById(id);
     }
 
-    @PostMapping(name = "新增员工信息", value = "/emp")
+    @GetMapping(name = "更新员工信息", value = "/emp/update")
+    public Employee updateDepartment(Employee employee) {
+        return employeeService.updateEmployee(employee);
+    }
+
+//    @PostMapping(name = "新增员工信息", value = "/emp")
     public int insertDepartment(Employee employee) {
         return employeeService.insertEmployee(employee);
     }
 
-    @PutMapping(name = "更新员工信息", value = "/emp")
-    public int updateDepartment(Employee employee) {
-        return employeeService.updateEmployee(employee);
-    }
-
-    @DeleteMapping(name = "根据部员工D删除指定员工信息", value = "/emp/{id}")
+//    @DeleteMapping(name = "根据部员工D删除指定员工信息", value = "/emp/{id}")
     public int deleteDepartMentById(@PathVariable("id") Integer id) {
         return employeeService.deleteEmployeeById(id);
     }

@@ -31,30 +31,6 @@ public class Employee implements Serializable {
                 '}';
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Employee)) return false;
-
-        Employee employee = (Employee) o;
-
-        if (getId() != null ? !getId().equals(employee.getId()) : employee.getId() != null) return false;
-        if (getLastName() != null ? !getLastName().equals(employee.getLastName()) : employee.getLastName() != null) return false;
-        if (getEmail() != null ? !getEmail().equals(employee.getEmail()) : employee.getEmail() != null) return false;
-        if (getGender() != null ? !getGender().equals(employee.getGender()) : employee.getGender() != null) return false;
-        return getdId() != null ? getdId().equals(employee.getdId()) : employee.getdId() == null;
-    }
-
-    @Override
-    public int hashCode() {
-        int result = getId() != null ? getId().hashCode() : 0;
-        result = 31 * result + (getLastName() != null ? getLastName().hashCode() : 0);
-        result = 31 * result + (getEmail() != null ? getEmail().hashCode() : 0);
-        result = 31 * result + (getGender() != null ? getGender().hashCode() : 0);
-        result = 31 * result + (getdId() != null ? getdId().hashCode() : 0);
-        return result;
-    }
-
     public Integer getId() {
         return id;
     }

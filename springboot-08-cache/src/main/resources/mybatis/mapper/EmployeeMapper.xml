@@ -20,19 +20,19 @@
     </select>
 
     <!--
-        @Insert("insert into employee(lastName,email,gender,d_id) values(#{lastName},#{email},#{gender},#{bId})")
+        @Insert("insert into employee(lastName,email,gender,d_id) values(#{lastName},#{email},#{gender},#{dId})")
         int insertEmployee(Employee employee);
     -->
     <insert id="insertEmployee" parameterType="com.alibaba.springboot.domain.Employee">
-      insert into employee(lastName,email,gender,d_id) values(#{lastName},#{email},#{gender},#{bId})
+      insert into employee(lastName,email,gender,d_id) values(#{lastName},#{email},#{gender},#{dId})
     </insert>
 
     <!--
-        @Update("update employee set lastName=#{lastName},email=#{email},gender=#{gender},d_id=#{bId} where id=#{id}")
-        int updateEmployee(Employee employee);
+        @Update("update employee set lastName=#{lastName},email=#{email},gender=#{gender},d_id=#{dId} where id=#{id}")
+        Employee updateEmployee(Employee employee);
     -->
     <update id="updateEmployee" parameterType="com.alibaba.springboot.domain.Employee">
-        update employee set lastName=#{lastName},email=#{email},gender=#{gender},d_id=#{bId} where id=#{id}
+        update employee set lastName=#{lastName},email=#{email},gender=#{gender},d_id=#{dId} where id=#{id}
     </update>
 
     <!--

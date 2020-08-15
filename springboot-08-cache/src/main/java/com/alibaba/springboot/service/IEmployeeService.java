@@ -15,5 +15,5 @@ public interface IEmployeeService {
 
     int insertEmployee(Employee employee);
 
-    int updateEmployee(Employee employee);
+    Employee updateEmployee(Employee employee);
 }
