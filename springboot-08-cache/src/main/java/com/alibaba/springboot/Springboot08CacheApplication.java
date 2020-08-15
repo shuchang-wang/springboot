@@ -22,6 +22,8 @@ import org.springframework.cache.annotation.EnableCaching;
  *              @CacheEvict
  *              @CachePut
  *              @EnableCaching
+ *  默认使用的是ConcurrentMapCacheManager==ConcurrentMapCache；将数据保存在ConcurrentMap<Object,Object>
+ *  开发中使用缓存中间件：redis、memcached、ehcache等待
  */
 @MapperScan(basePackages = "com.alibaba.springboot.mapper")
 @SpringBootApplication
