@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-@CacheConfig(cacheNames = "emp")//抽取缓存的公共配置
+@CacheConfig(cacheNames = "emp",cacheManager = "empCacheManager")//抽取缓存的公共配置
 public class EmployeeServiceImpl implements IEmployeeService {
 
     private static Logger logger = LoggerFactory.getLogger(EmployeeServiceImpl.class);

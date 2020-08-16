@@ -1,9 +1,7 @@
 package com.alibaba.springboot;
 
-import com.alibaba.fastjson.JSON;
 import com.alibaba.springboot.domain.Employee;
 import com.alibaba.springboot.mapper.EmployeeMapper;
-import org.json.JSONObject;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
@@ -14,7 +12,6 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.util.Arrays;
 import java.util.List;
 
 @RunWith(SpringRunner.class)
@@ -33,7 +30,7 @@ public class Springboot08CacheApplicationTests {
     RedisTemplate redisTemplate;//k-v都是对象的
 
     @Autowired
-    RedisTemplate myRedisTemplate;//k-v都是对象的
+    RedisTemplate empRedisTemplate;//k-v都是对象的
 
     /**
      * 常见的五大数据类型：
@@ -70,7 +67,7 @@ public class Springboot08CacheApplicationTests {
         //1、将数据以json的方式保存
             //(1)将自己对象转为json
             //(2)redisTemplate默认的序列化规则;改变默认的序列化规则
-        myRedisTemplate.opsForValue().set("emp-02",employeeById);
+        empRedisTemplate.opsForValue().set("emp-02",employeeById);
     }
 
     @Test
