@@ -47,9 +47,13 @@ public class Springboot09AmqpApplicationTests {
 		System.out.println(o);
 	}
 
+	/**
+	 * 广播
+	 */
 	@Test
 	public void send02() {
-		rabbitTemplate.convertAndSend("exchange.fanout","",new Book("三国演义","罗贯中"));
+//		rabbitTemplate.convertAndSend("exchange.fanout","",new Book("三国演义","罗贯中"));
+		rabbitTemplate.convertAndSend("exchange.fanout","",new Book("红楼梦","曹雪芹"));
 	}
 }
 
