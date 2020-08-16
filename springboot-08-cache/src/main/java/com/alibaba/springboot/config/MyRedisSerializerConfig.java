@@ -11,7 +11,6 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 
 import java.net.UnknownHostException;
-import java.util.List;
 
 /**
  * 自定义序列化器规则
@@ -54,6 +53,7 @@ public class MyRedisSerializerConfig {
         cacheManager.setUsePrefix(true);
         return cacheManager;
     }
+
 
     @Primary
     @Bean
