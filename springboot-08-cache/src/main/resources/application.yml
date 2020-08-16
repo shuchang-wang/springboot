@@ -35,6 +35,9 @@ spring:
     maxPoolPreparedStatementPerConnectionSize: 20
     useGlobalDataSourceStat: true
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+  #redis配置
+  redis:
+    host: 192.168.21.148
 
 #mybatis的相关配置
 mybatis:
