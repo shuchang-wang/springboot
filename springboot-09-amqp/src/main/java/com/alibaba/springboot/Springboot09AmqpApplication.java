@@ -11,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 3、RabbitProperties封装了RabbitMQ的配置
  * 4、RabbitTemplate：给RabbitMQ发送和接收消息
  * 5、AmqpAdmin：RabbitMQ系统管理功能组件
+ * 		AmqpAdmin：创建和删除 Queue、Exchange、Binging
  * 6、@EnableRabbit + @RabbitListener 监听消息队列的内容
  */
 //开启基于注解的RabbitMQ模式
