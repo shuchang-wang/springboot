@@ -1,0 +1,36 @@
+server:
+  port: 80
+spring:
+  #\u6570\u636E\u5E93\u914D\u7F6E
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.21.148:3306/spring_cache?&autoReconnect=true&failOverReadOnly=false&useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8&useSSL=false
+    #\u7B2C\u4E00\u6B21\u65F6\u4F7F\u7528\uFF0C\u518D\u6B21\u542F\u52A8\u65F6\u6CE8\u91CA\u6389\u4EE5\u514D\u6BCF\u6B21\u90FD\u8FDB\u884C\u6267\u884C
+#    schema: #DDL\u8BED\u8A00  \u9879\u76EE\u542F\u52A8\u65F6\u6267\u884C\u5EFA\u8868\u8BED\u53E5
+#      - classpath:sql/department.sql
+#      - classpath:sql/employee.sql
+#    data: #DML\u8BED\u8A00    \u9879\u76EE\u542F\u52A8\u65F6\u6267\u884C\u63D2\u5165sql\u8BED\u53E5
+#      - classpath:sql/department-data.sql
+#      - classpath:sql/employee-data.sql
+  #ehcache\u7F13\u5B58\u914D\u7F6E
+  cache:
+    type: ehcache
+    ehcache:
+      config: classpath:/ehcache.xml
+
+#\u65E5\u5FD7\u6253\u5370
+logging:
+  level:
+    com:
+     alibaba:
+      springboot:
+        mapper: debug
+
+debug: true
+
+#\u5F00\u542F\u9A7C\u5CF0\u547D\u540D\u6CD5\u8F6C\u6362
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
