@@ -20,15 +20,15 @@
 
     <dependencies>
         <!--SpringBoot 默认使用SpringData Elasticsearch模块进行操作-->
-       <!-- <dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
-        </dependency>-->
+        </dependency>
         <!-- https://mvnrepository.com/artifact/io.searchbox/jest -->
         <dependency>
             <groupId>io.searchbox</groupId>
             <artifactId>jest</artifactId>
-            <version>6.3.1</version>
+            <version>5.3.3</version>
         </dependency>
 
         <dependency>

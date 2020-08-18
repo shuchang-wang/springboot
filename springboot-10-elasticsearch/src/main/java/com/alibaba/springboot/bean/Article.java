@@ -1,6 +1,9 @@
 package com.alibaba.springboot.bean;
 
+import io.searchbox.annotations.JestId;
+
 public class Article {
+    @JestId
     private int id;
     private String author;
     private String title;

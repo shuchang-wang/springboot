@@ -11,6 +11,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 		1）、Client	需要配置这些参数信息：节点信息clusterNodes、clusterName
  * 		2）、ElasticsearchTemplate操作ES
  * 		3）、编写一个ElasticsearchRepository的子接口来操作ES
+ * 	两种用法：https://github.com/spring-projects/spring-data-elasticsearch
+ *	1）、编写一个 ElasticsearchRepository
+ *	2）使用内置Elasticsearch模板：ElasticsearchRestTemplate
  */
 @SpringBootApplication
 public class Springboot10ElasticsearchApplication {

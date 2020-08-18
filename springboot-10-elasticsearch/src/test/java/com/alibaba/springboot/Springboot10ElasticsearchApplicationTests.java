@@ -1,6 +1,8 @@
 package com.alibaba.springboot;
 
 import com.alibaba.springboot.bean.Article;
+import com.alibaba.springboot.bean.Book;
+import com.alibaba.springboot.repository.BookRepository;
 import io.searchbox.client.JestClient;
 import io.searchbox.core.Index;
 import io.searchbox.core.Search;
@@ -12,6 +14,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.io.IOException;
+import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -19,6 +22,9 @@ public class Springboot10ElasticsearchApplicationTests {
 
     @Autowired
     private JestClient jestClient;
+
+    @Autowired
+    private BookRepository bookRepository;
 
     @Test
     public void test01() {
@@ -52,6 +58,25 @@ public class Springboot10ElasticsearchApplicationTests {
             System.out.println(searchResult.getJsonString());
         } catch (IOException e) {
             e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void test03() {
+        bookRepository.delete(1);
+        bookRepository.delete(2);
+        bookRepository.delete(3);
+        bookRepository.index(new Book(2, "西游记", "吴承恩"));
+        bookRepository.index(new Book(3, "三国演义", "罗贯中"));
+        bookRepository.index(new Book(4, "水浒传", "施耐庵"));
+        bookRepository.index(new Book(5, "红楼梦", "曹雪芹"));
+    }
+
+    @Test
+    public void test04() {
+        List<Book> books = bookRepository.findBookByBookNameLike("游");
+        for (Book book : books) {
+            System.out.println(book);
         }
     }
 
