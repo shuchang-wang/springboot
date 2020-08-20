@@ -1,0 +1,12 @@
+insert into employee(lastName,email,gender,d_id) VALUES ('张三','zhangsan@alibaba.com',0,'1');
+insert into employee(lastName,email,gender,d_id) VALUES ('李四','lisi@alibaba.com',1,'1');
+insert into employee(lastName,email,gender,d_id) VALUES ('王五','wangwu@alibaba.com',0,'2');
+insert into employee(lastName,email,gender,d_id) VALUES ('赵六','zhaoliu@alibaba.com',1,'2');
+insert into employee(lastName,email,gender,d_id) VALUES ('徐琦','xuqi@alibaba.com',0,'2');
+insert into employee(lastName,email,gender,d_id) VALUES ('刘巴','liuba@alibaba.com',1,'3');
+insert into employee(lastName,email,gender,d_id) VALUES ('羌九','qiangjiu@alibaba.com',0,'3');
+insert into employee(lastName,email,gender,d_id) VALUES ('关式','guanshi@alibaba.com',1,'4');
+insert into employee(lastName,email,gender,d_id) VALUES ('游天儿','youtianer@alibaba.com',0,'4');
+insert into employee(lastName,email,gender,d_id) VALUES ('李柳奇','liuliuqi@alibaba.com',1,'5');
+insert into employee(lastName,email,gender,d_id) VALUES ('瘪三','biesan@alibaba.com',0,'6');
+insert into employee(lastName,email,gender,d_id) VALUES ('朱重八','zhuchongba@alibaba.com',1,'6');
