@@ -7,30 +7,24 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-12-security</name>
     <description>Demo project for Spring Boot</description>
-
     <properties>
         <java.version>1.8</java.version>
         <thymeleaf.version>3.0.11.RELEASE</thymeleaf.version>
         <thymeleaf-layout-dialect.version>2.4.1</thymeleaf-layout-dialect.version>
         <thymeleaf-extras-springsecurity4.version>3.0.4.RELEASE</thymeleaf-extras-springsecurity4.version>
     </properties>
-
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.12.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.thymeleaf.extras/thymeleaf-extras-springsecurity4 -->
         <dependency>
             <groupId>org.thymeleaf.extras</groupId>
             <artifactId>thymeleaf-extras-springsecurity4</artifactId>
-            <version>3.0.4.RELEASE</version>
-            <version>3.0.4.RELEASE</version>
         </dependency>
-
         <!--thymeleaf-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -53,7 +47,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
@@ -62,5 +55,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
