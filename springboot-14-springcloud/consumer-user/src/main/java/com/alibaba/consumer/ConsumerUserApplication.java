@@ -18,7 +18,7 @@ public class ConsumerUserApplication {
         SpringApplication.run(ConsumerUserApplication.class, args);
     }
 
-    @Bean
+    @Bean   //将RestTemplate加入容器
     @LoadBalanced   //使用负载均衡机制
     public RestTemplate restTemplate() {
         //使用RestTemplate发送http请求
