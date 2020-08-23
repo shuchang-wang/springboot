@@ -10,5 +10,4 @@ public class ProviderTicketApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ProviderTicketApplication.class, args);
 	}
-
 }

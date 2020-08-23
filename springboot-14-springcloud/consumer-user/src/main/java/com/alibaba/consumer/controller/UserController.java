@@ -10,7 +10,6 @@ public class UserController {
 
     @Autowired
     RestTemplate restTemplate;
-
     @GetMapping("/getTicket")
     public String getTicket(String name) {
         String ticket = restTemplate.getForObject("http://PROVIDER-TICKET/ticket", String.class);

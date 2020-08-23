@@ -5,7 +5,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class TicketServiceImpl implements ITicketService {
-
     @Override
     public String getTicket() {
         System.out.println("8001");

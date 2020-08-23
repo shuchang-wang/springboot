@@ -1,10 +1,10 @@
 server:
   port: 8200
-
+#应用名配置
 spring:
   application:
     name: consumer-user
-
+#eureka配置
 eureka:
   instance:
     prefer-ip-address: true

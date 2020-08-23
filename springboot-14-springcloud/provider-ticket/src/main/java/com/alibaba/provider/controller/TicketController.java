@@ -16,5 +16,4 @@ public class TicketController {
         String ticket = iTicketService.getTicket();
         return ticket;
     }
-
 }
