@@ -11,8 +11,15 @@ import java.util.concurrent.CountDownLatch;
 public class CountDownLatchDemo {
 
     public static void main(String[] args) {
-        //closeDoor();
+        //关门案例
+        closeDoor();
 
+        //秦灭六国案例
+        gameOverSixCountry();
+    }
+
+    //秦灭六国案例
+    public static void gameOverSixCountry() {
         CountDownLatch countDownLatch = new CountDownLatch(6);
         for (int i = 1; i <= 6; i++) {
             new Thread(() -> {
@@ -32,6 +39,7 @@ public class CountDownLatchDemo {
         System.out.println(CountryEnum.ONE.getRetMessage());
     }
 
+    //关门案例
     public static void closeDoor() {
         CountDownLatch countDownLatch = new CountDownLatch(6);
         for (int i = 0; i < 6; i++) {
