@@ -1,6 +1,7 @@
 package com.alibaba.interview.study.thread;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.CopyOnWriteArraySet;
 
@@ -19,8 +20,34 @@ public class ContainerNotSafeDemo {
         //Set
         setNotSafe();
 
+        //Map
+        mapNotSafe();
+
     }
 
+    /**
+     * Map集合安全性解决方案：
+     *  1、new Hashtable<>();
+     *  2、Collections.synchronizedMap(new HashMap<>());
+     *  3、new ConcurrentHashMap<>();
+     *
+     */
+    public static void mapNotSafe() {
+        Map<String,String> map = new ConcurrentHashMap<>();//Collections.synchronizedMap(new HashMap<>());//new Hashtable<>();//new HashMap<>();
+        for (int i = 0; i < 30; i++) {
+            new Thread(()->{
+                //java.util.ConcurrentModificationException
+                map.put(Thread.currentThread().getName(), UUID.randomUUID().toString().substring(0,8));
+                System.out.println(map);
+            },"Thread-"+i).start();
+        }
+    }
+
+    /**
+     *   set集合的安全性解决方案：
+     *      1、Collections.synchronizedSet(new HashSet<>());
+     *      2、new CopyOnWriteArraySet<>();  //底层是使用了CopyOnWriteArrayList
+     */
     public static void setNotSafe() {
         Set<String> set = new CopyOnWriteArraySet<>();//Collections.synchronizedSet(new HashSet<>());//new HashSet<>();
         for (int i = 0; i < 30; i++) {
@@ -32,6 +59,12 @@ public class ContainerNotSafeDemo {
         }
     }
 
+    /**
+     *  List集合安全性解决方案：
+     *      1、使用线程安全的集合Vector，new Vector<>();
+     *      2、使用集合辅助类Collections;Collections.synchronizedList(new ArrayList<>());
+     *      3、new CopyOnWriteArrayList();
+     */
     public static void listNotSafe() {
         //ArrayList初始化容器大小size=10；扩容按1.5倍进行扩容；底层是Object类型的数组
         new ArrayList<Integer>().add(1);
