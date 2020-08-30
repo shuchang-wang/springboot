@@ -44,6 +44,7 @@ class MyData {
  *  2.4 如何解决？
  *      2.4.1 在方法上加synchronize同步锁关键字修饰【杀鸡用了牛刀，有些大材小用了】
  *      2.4.2 使用并发包下的【java.util.concurrent——》JUC】AtomicInteger原子类型
+ *  3.volatile禁止指令重拍
  */
 public class VolatileDemo {
 
