@@ -2,6 +2,7 @@ package com.alibaba.interview.study.thread;
 
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.concurrent.CopyOnWriteArraySet;
 
 /**
  * @author: WSC
@@ -15,6 +16,20 @@ public class ContainerNotSafeDemo {
         //List
         listNotSafe();
 
+        //Set
+        setNotSafe();
+
+    }
+
+    public static void setNotSafe() {
+        Set<String> set = new CopyOnWriteArraySet<>();//Collections.synchronizedSet(new HashSet<>());//new HashSet<>();
+        for (int i = 0; i < 30; i++) {
+            new Thread(()->{
+                //java.util.ConcurrentModificationException
+              set.add(UUID.randomUUID().toString().substring(0,8));
+                System.out.println(set);
+            },"Thread-"+i).start();
+        }
     }
 
     public static void listNotSafe() {
@@ -73,4 +88,5 @@ public class ContainerNotSafeDemo {
          *   }
          */
     }
+
 }
