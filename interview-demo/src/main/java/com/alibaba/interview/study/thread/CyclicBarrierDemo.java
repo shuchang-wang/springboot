@@ -9,6 +9,7 @@ import java.util.concurrent.CyclicBarrier;
  * 聚齐七龙珠召唤神龙
  */
 public class CyclicBarrierDemo {
+
     public static void main(String[] args) {
         CyclicBarrier cyclicBarrier = new CyclicBarrier(7,() -> {
             System.out.println("*******************七龙珠聚齐，开始召唤神龙*******************");
