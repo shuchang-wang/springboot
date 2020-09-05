@@ -21,7 +21,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 3、等待是否可中断
  *      synchronized不可中断，除非抛出异常或者正常运行完成
  *      ReentrantLock可中断，
- *          1.设置超时方法tryLock(long timeout, TimeUnit unit)
+ *          1.设置超时方法tryLock(long time, TimeUnit unit)
  *          2.lockInterruptibly()方代码块中，调用interrupt()方法可中断
  * <p>
  * 4、加锁是否公平

@@ -33,7 +33,8 @@ public class BlockingQueueDemo {
      * 超时退出:
      * 当阻塞队列满时，队列会阻塞生产者线程一定时间，超过限时后生产者线程就会退出。
      * 当阻塞队列空时，队列会阻塞消费者线程一定时间，超过限时后消费者线程就会退出。
-     *
+     * offer("a", 2L, TimeUnit.SECONDS)
+     * poll(3L, TimeUnit.SECONDS)
      * @throws InterruptedException
      */
     public static void timeoutExitBlockingQueueMethod() throws InterruptedException {
@@ -92,7 +93,7 @@ public class BlockingQueueDemo {
 
     /**
      * 抛出异常:
-     * 当阻塞队列满时，再往队列里面add插入元素会抛IllegalStateException: Queue full
+            * 当阻塞队列满时，再往队列里面add插入元素会抛IllegalStateException: Queue full
      * 当阻塞队列空时，再往队列Remove元素时候回抛出NoSuchElementException
      * <p>
      * add()-当阻塞队列满的时候，再往队列里添加将会报异常：java.lang.IllegalStateException: Queue full

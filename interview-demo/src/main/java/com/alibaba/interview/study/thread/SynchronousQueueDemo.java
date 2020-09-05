@@ -7,9 +7,8 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author: WSC
  * @Create 2020/9/5 16:04
- * 阻塞队列
- * SynchronousQueue没有容量
- * 与其他BlcokingQueue不同，SynchronousQueue是一个不存储元素的BlcokingQueue。
+ * 阻塞队列SynchronousQueue演示
+ * SynchronousQueue没有容量，与其他BlcokingQueue不同，SynchronousQueue是一个不存储元素的BlcokingQueue。
  * 每个put操作必须要等待一个take操作，否则不能继续添加元素，反之亦然。
  */
 public class SynchronousQueueDemo {
