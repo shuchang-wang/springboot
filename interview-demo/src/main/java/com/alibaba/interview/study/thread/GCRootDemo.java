@@ -1,6 +1,8 @@
 package com.alibaba.interview.study.thread;
 
 /**
+ * @author: WSC
+ * @Create 2020/9/6 20:04
  * 如何判断一个对象是否可以被回收？
  *      1、根节点做可达性分析
  *      2、那些可以做GC Root对象
