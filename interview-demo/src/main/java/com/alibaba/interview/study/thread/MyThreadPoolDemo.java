@@ -1,8 +1,6 @@
 package com.alibaba.interview.study.thread;
 
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 
 /**
  * @author: WSC
@@ -12,7 +10,37 @@ import java.util.concurrent.TimeUnit;
 public class MyThreadPoolDemo {
 
     public static void main(String[] args) {
-        //System.out.println(Runtime.getRuntime().availableProcessors());
+        //JDK自带的线程池使用
+        //threadPoolInit();
+
+        //手动自定义线程池使用
+        ExecutorService threadPool = new ThreadPoolExecutor(2,
+                5,
+                1L,
+                TimeUnit.SECONDS,
+                new LinkedBlockingQueue<>(3),
+                Executors.defaultThreadFactory(),
+                new ThreadPoolExecutor.DiscardPolicy());
+        try {
+            //模拟10个银行用户来办理业务，每个用户就是来自外部的请求线程
+            for (int i = 1; i <= 10; i++) {
+                threadPool.execute(() -> {
+                    System.out.println(Thread.currentThread().getName() + "\t 办理业务");
+                });
+                //暂停一会线程
+                // try {TimeUnit.MILLISECONDS.sleep(200);} catch (InterruptedException e) {e.printStackTrace();}
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            threadPool.shutdown();
+        }
+    }
+
+    /**
+     * JDK自带的线程池使用
+     */
+    public static void threadPoolInit() {
         ExecutorService threadPool = Executors.newFixedThreadPool(5);//一池5个处理线程
         ExecutorService threadPool2 = Executors.newSingleThreadExecutor();//一池一个处理线程
         ExecutorService threadPool3 = Executors.newCachedThreadPool();//一次N个处理线程
@@ -23,7 +51,7 @@ public class MyThreadPoolDemo {
                     System.out.println(Thread.currentThread().getName() + "\t 办理业务");
                 });
                 //暂停一会线程
-               // try {TimeUnit.MILLISECONDS.sleep(200);} catch (InterruptedException e) {e.printStackTrace();}
+                // try {TimeUnit.MILLISECONDS.sleep(200);} catch (InterruptedException e) {e.printStackTrace();}
             }
         } catch (Exception e) {
             e.printStackTrace();
