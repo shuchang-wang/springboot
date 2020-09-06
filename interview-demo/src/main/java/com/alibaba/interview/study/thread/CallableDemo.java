@@ -45,7 +45,19 @@ public class CallableDemo {
 }
 
 /**
- * 多线程实现方式：实现Runnable接口
+ * 多线程实现方式：继承Thread类，重写run方法
+ */
+class MyThread extends Thread {
+
+    @Override
+    public void run() {
+        System.out.println(Thread.currentThread().getName() + "\t********************come in Runable接口");
+    }
+
+}
+
+/**
+ * 多线程实现方式：实现Runnable接口，重写run方法
  */
 class MyThreadRunnable implements Runnable {
 
@@ -57,7 +69,7 @@ class MyThreadRunnable implements Runnable {
 }
 
 /**
- * 多线程实现方式：实现Callable接口
+ * 多线程实现方式：实现Callable接口,重写call()方法
  */
 class MyThreadCallable implements Callable<Integer> {
 
