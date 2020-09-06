@@ -8,19 +8,20 @@ import java.util.concurrent.TimeUnit;
 /**
  * @author: WSC
  * @Create 2020/9/6 10:31
- * 题目：多线程实现方式有几种？
- * 1、继承Thread类，重写run方法。
- * 2、实现Runnable接口，重写run方法。
- * 3、实现Callable接口，重写call方法
+ * 题目：多线程实现方式有几种？4种
+ *      1、继承Thread类，重写run方法。
+ *      2、实现Runnable接口，重写run方法。
+ *      3、实现Callable接口，重写call方法
+ *      4、线程池创建多线程方式
  * <p>
  * <p>
  * 题目：Callable和Runnable接口的区别？
- * 1、Callable接口方法有返回值，而Runnable接口无返回值。
- * 2、Callable接口可以抛出异常，而Runnable接口不可以抛出异常。
- * 3、Callable接口的方法是call()方法，而Runnable接口的方法是run()方法。
- *      使用：
- *          FutureTask<Integer> futureTask2 = new FutureTask<Integer>(new MyThreadCallable());
- *           new Thread(futureTask, "AA").start();
+ *      1、Callable接口方法有返回值，而Runnable接口无返回值。
+ *      2、Callable接口可以抛出异常，而Runnable接口不可以抛出异常。
+ *      3、Callable接口的方法是call()方法，而Runnable接口的方法是run()方法。
+ *          使用：
+ *              FutureTask<Integer> futureTask2 = new FutureTask<Integer>(new MyThreadCallable());
+ *              new Thread(futureTask, "AA").start();
  */
 public class CallableDemo {
 
