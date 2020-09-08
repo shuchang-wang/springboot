@@ -3,6 +3,7 @@ package com.alibaba.interview.study.thread;
 /**
  * @author: WSC
  * @Create 2020/9/8 21:41
+ * 强引用：当内存不足，JVM开始垃圾回收，对于强应用的对象，就算是出现了OOM也不会对该对象进行回收，死都不回收。
  */
 public class StrongReferenceDemo {
     public static void main(String[] args) {
