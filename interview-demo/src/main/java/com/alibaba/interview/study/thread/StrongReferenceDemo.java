@@ -10,7 +10,8 @@ public class StrongReferenceDemo {
         Object obj2 = obj1;//obj2引用赋值
         obj1 = null;//置空
         System.gc();
-        System.out.println(obj2);
+        System.out.println(obj2);//obj2不为空，打印结果为：java.lang.Object@13221655
+
 
     }
 }
