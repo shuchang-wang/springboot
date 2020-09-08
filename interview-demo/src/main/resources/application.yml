@@ -1,0 +1,18 @@
+#server.port=8080
+#server.tomcat.uri-encoding=utf-8
+server:
+  port: 8080
+  tomcat:
+    uri-encoding: utf-8
+
+apache:
+  rocketmq:
+    ###MQ\u670D\u52A1\u5668\u5730\u5740
+    namesrvAddr: 10.3.133.160:9876
+    producer:
+      ###\u751F\u4EA7\u8005\u5206\u7EC4
+      producerGroup: myProducer01
+    ###\u6D88\u8D39\u8005\u540D\u79F0
+    consumer:
+      PushConsumer: myPushConsumer01
+      consumerGroup: test

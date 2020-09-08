@@ -19,6 +19,24 @@
 	</properties>
 
 	<dependencies>
+		<!-- 通用的一些类,方法,数据结构等 -->
+		<dependency>
+			<groupId>org.apache.rocketmq</groupId>
+			<artifactId>rocketmq-common</artifactId>
+			<version>4.3.2</version>
+		</dependency>
+		<!-- 访问客户端 -->
+		<dependency>
+			<groupId>org.apache.rocketmq</groupId>
+			<artifactId>rocketmq-client</artifactId>
+			<version>4.3.2</version>
+		</dependency>
+		<!-- JSON序列化工具 -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.49</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
