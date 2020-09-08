@@ -19,10 +19,10 @@ import java.util.concurrent.TimeUnit;
 public class HellpGC {
     public static void main(String[] args) {
         System.out.println("**************Hello GC");
-//        long totalMemory = Runtime.getRuntime().totalMemory();
-//        long maxMemory = Runtime.getRuntime().maxMemory();
-//        System.out.println("TOTAL_MEMPRY(-Xms)="+totalMemory+"(字节)、"+totalMemory/1024/1024+"MB");
-//        System.out.println("MAX_MEMPRY(-Xmx)="+maxMemory+"(字节)、"+maxMemory/1024/1024+"MB");
+        long totalMemory = Runtime.getRuntime().totalMemory();
+        long maxMemory = Runtime.getRuntime().maxMemory();
+        System.out.println("TOTAL_MEMPRY(-Xms)="+totalMemory+"(字节)、"+totalMemory/1024/1024+"MB");
+        System.out.println("MAX_MEMPRY(-Xmx)="+maxMemory+"(字节)、"+maxMemory/1024/1024+"MB");
         //暂停一会线程
         try {TimeUnit.SECONDS.sleep(Integer.MAX_VALUE);} catch (InterruptedException e) {e.printStackTrace();}
 //        byte[] arr = new byte[50 * 1024 * 1024];
