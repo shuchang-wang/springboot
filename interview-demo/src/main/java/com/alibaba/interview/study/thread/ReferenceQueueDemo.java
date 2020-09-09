@@ -8,7 +8,7 @@ import java.lang.ref.WeakReference;
  * @Create 2020/9/9 20:36
  */
 public class ReferenceQueueDemo {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Object o1 = new Object();
         ReferenceQueue<Object> referenceQueue = new ReferenceQueue<>();
         WeakReference<Object> weakReference = new WeakReference<Object>(o1,referenceQueue);
@@ -19,6 +19,7 @@ public class ReferenceQueueDemo {
         System.out.println("=============================================");
         o1 = null;
         System.gc();
+        Thread.sleep(500);//睡眠一下，注意这里是为了确保回收的对象进入引用队列中。如果没有此休眠，可能会获取为null的情况
         System.out.println(o1);//null
         System.out.println(weakReference.get());//null
         System.out.println(referenceQueue.poll());//java.lang.ref.WeakReference@2f2c9b19
