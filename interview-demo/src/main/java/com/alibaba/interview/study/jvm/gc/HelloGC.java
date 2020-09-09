@@ -1,4 +1,4 @@
-package com.alibaba.interview.study.thread;
+package com.alibaba.interview.study.jvm.gc;
 
 import java.util.concurrent.TimeUnit;
 
@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
  *      java -XX:+PrintFlagsFinal -version
  * jstack processID  打印当前java工作进程
  */
-public class HellpGC {
+public class HelloGC {
     public static void main(String[] args) {
         System.out.println("**************Hello GC");
         long totalMemory = Runtime.getRuntime().totalMemory();

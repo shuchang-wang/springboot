@@ -1,4 +1,4 @@
-package com.alibaba.interview.study.thread;
+package com.alibaba.interview.study.jvm.ref;
 
 import java.lang.ref.SoftReference;
 

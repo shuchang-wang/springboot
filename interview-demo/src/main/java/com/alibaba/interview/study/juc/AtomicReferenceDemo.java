@@ -1,4 +1,4 @@
-package com.alibaba.interview.study.thread;
+package com.alibaba.interview.study.juc;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

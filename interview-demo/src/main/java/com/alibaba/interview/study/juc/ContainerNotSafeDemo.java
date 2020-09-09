@@ -1,4 +1,4 @@
-package com.alibaba.interview.study.thread;
+package com.alibaba.interview.study.juc;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
