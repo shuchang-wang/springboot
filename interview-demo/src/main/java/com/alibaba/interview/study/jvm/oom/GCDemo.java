@@ -77,6 +77,31 @@ import java.util.Random;
  *          class space    used 354K, capacity 388K, committed 512K, reserved 1048576K
  *  4.2 不加默认是UseParallelGC 。   -Xms10m -Xmx10m -XX:+PrintGCDetails -XX:+PrintCommandLineFlags      （PSYoungGen + ParOldGen）
  *
+ *  5、-Xms10m -Xmx10m -XX:+PrintGCDetails -XX:+PrintCommandLineFlags -XX:+UseConcMarkSweepGC            （ParNew + CMS + ）
+ *      -XX:InitialHeapSize=10485760 -XX:MaxHeapSize=10485760 -XX:MaxNewSize=3497984 -XX:MaxTenuringThreshold=6 -XX:NewSize=3497984 -XX:OldPLABSize=16 -XX:OldSize=6987776 -XX:+PrintCommandLineFlags -XX:+PrintGCDetails -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:-UseLargePagesIndividualAllocation -XX:+UseParNewGC
+ *      *********************GCDemo hello
+ *      [GC (Allocation Failure) [ParNew: 2743K->320K(3072K), 0.0025386 secs] 2743K->970K(9920K), 0.0025753 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+ *      [GC (CMS Initial Mark) [1 CMS-initial-mark: 3547K(6848K)] 4263K(9920K), 0.0003968 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+ *      [CMS-concurrent-mark-start]
+ *      [CMS-concurrent-mark: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+ *      [CMS-concurrent-preclean-start]
+ *      [CMS-concurrent-preclean: 0.000/0.000 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+ *      [GC (CMS Final Remark) [YG occupancy: 2734 K (3072 K)][Rescan (parallel) , 0.0001818 secs][weak refs processing, 0.0000280 secs][class unloading, 0.0002783 secs][scrub symbol table, 0.0005279 secs][scrub string table, 0.0000885 secs][1 CMS-remark: 3547K(6848K)] 6282K(9920K), 0.0011501 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+ *      [CMS-concurrent-sweep-start]
+ *      [GC (Allocation Failure) [ParNew: 2734K->36K(3072K), 0.0009623 secs] 6270K->5538K(9920K), 0.0009856 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+ *      [CMS-concurrent-sweep: 0.001/0.002 secs] [Times: user=0.06 sys=0.00, real=0.00 secs]
+ *      [GC (Allocation Failure) [ParNew: 2710K->2710K(3072K), 0.0000209 secs][CMS: 4528K->4090K(6848K), 0.0060088 secs] 7239K->4090K(9920K), [Metaspace: 3248K->3248K(1056768K)], 0.0060935 secs] [Times: user=0.00 sys=0.00, real=0.01 secs]
+ *      [GC (Allocation Failure) [ParNew: 2728K->2K(3072K), 0.0007429 secs] 6819K->6717K(9920K), 0.0007720 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+ *      [Full GC (Allocation Failure) [CMS: 4742K->4722K(6848K), 0.0030119 secs] 4742K->4722K(9920K), [Metaspace: 3248K->3248K(1056768K)], 0.0030344 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+ *      Heap
+ *      par new generation   total 3072K, used 81K [0x00000000ff600000, 0x00000000ff950000, 0x00000000ff950000)
+ *          eden space 2752K,   2% used [0x00000000ff600000, 0x00000000ff6144a0, 0x00000000ff8b0000)
+ *          from space 320K,   0% used [0x00000000ff900000, 0x00000000ff900000, 0x00000000ff950000)
+ *          to   space 320K,   0% used [0x00000000ff8b0000, 0x00000000ff8b0000, 0x00000000ff900000)
+ *      concurrent mark-sweep generation total 6848K, used 4722K [0x00000000ff950000, 0x0000000100000000, 0x0000000100000000)
+ *      Metaspace       used 3279K, capacity 4496K, committed 4864K, reserved 1056768K
+ *          class space    used 354K, capacity 388K, committed 512K, reserved 1048576K
+ *
  */
 public class GCDemo {
     public static void main(String[] args) {
