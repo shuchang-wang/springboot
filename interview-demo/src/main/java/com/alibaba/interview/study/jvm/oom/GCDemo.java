@@ -77,7 +77,7 @@ import java.util.Random;
  *          class space    used 354K, capacity 388K, committed 512K, reserved 1048576K
  *  4.2 不加默认是UseParallelGC 。   -Xms10m -Xmx10m -XX:+PrintGCDetails -XX:+PrintCommandLineFlags      （PSYoungGen + ParOldGen）
  *
- *  5、-Xms10m -Xmx10m -XX:+PrintGCDetails -XX:+PrintCommandLineFlags -XX:+UseConcMarkSweepGC            （ParNew + CMS）
+ *  5、-Xms10m -Xmx10m -XX:+PrintGCDetails -XX:+PrintCommandLineFlags -XX:+UseConcMarkSweepGC            （Par new generation + CMS）
  *      -XX:InitialHeapSize=10485760 -XX:MaxHeapSize=10485760 -XX:MaxNewSize=3497984 -XX:MaxTenuringThreshold=6 -XX:NewSize=3497984 -XX:OldPLABSize=16 -XX:OldSize=6987776 -XX:+PrintCommandLineFlags -XX:+PrintGCDetails -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:-UseLargePagesIndividualAllocation -XX:+UseParNewGC
  *      *********************GCDemo hello
  *      [GC (Allocation Failure) [ParNew: 2743K->320K(3072K), 0.0025386 secs] 2743K->970K(9920K), 0.0025753 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
@@ -104,6 +104,17 @@ import java.util.Random;
  *
  *  6、（理论知道即可，实际中JAVA8已经被优化掉了，没有了。）
  *      -Xms10m -Xmx10m -XX:+PrintGCDetails -XX:+PrintCommandLineFlags -XX:+UseSerialOldGC
+ *          Error: Could not create the Java Virtual Machine.
+ *          Error: A fatal exception has occurred. Program will exit.
+ *          Unrecognized VM option 'UseSerialOldGC'
+ *          Did you mean '(+/-)UseSerialGC'?
+ *
+ *  7、-Xms10m -Xmx10m -XX:+PrintGCDetails -XX:+PrintCommandLineFlags -XX:+UseG1GC   单独讲解G1垃圾时收集器
+ *
+ *  下面是故意繁琐配置，主要是为了学习，一般生产不这么配置：
+ *      -Xms10m -Xmx10m -XX:+PrintGCDetails -XX:+PrintCommandLineFlags -XX:+UseParallelGC -XX:+UseParallelOldGC     （PSYoungGen + ParOldGen）
+ *
+ *      -Xms10m -Xmx10m -XX:+PrintGCDetails -XX:+PrintCommandLineFlags -XX:+UseParNewGC -XX:+UseConcMarkSweepGC     （Par new generation + CMS）
  *
  */
 public class GCDemo {
