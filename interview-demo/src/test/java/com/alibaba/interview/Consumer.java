@@ -7,7 +7,9 @@ import org.apache.rocketmq.client.consumer.listener.MessageListenerConcurrently;
 import org.apache.rocketmq.client.exception.MQClientException;
 import org.apache.rocketmq.common.consumer.ConsumeFromWhere;
 import org.apache.rocketmq.common.message.MessageExt;
+import org.apache.rocketmq.remoting.common.RemotingHelper;
 
+import java.io.UnsupportedEncodingException;
 import java.util.List;
 
 /**
@@ -37,8 +39,8 @@ public class Consumer {
         DefaultMQPushConsumer consumer = new DefaultMQPushConsumer("test_group");
 
         // 设置NameServer的地址
-        consumer.setNamesrvAddr("192.168.21.152:9876");
-        consumer.setNamesrvAddr("name-server1-ip:9876;name-server2-ip:9876");
+        consumer.setNamesrvAddr("192.168.21.154:9876");
+        //consumer.setNamesrvAddr("name-server1-ip:9876;name-server2-ip:9876");
         consumer.setConsumeFromWhere(ConsumeFromWhere.CONSUME_FROM_FIRST_OFFSET);
 
         // 订阅一个或者多个Topic，以及Tag来过滤需要消费的消息
@@ -47,7 +49,16 @@ public class Consumer {
         consumer.registerMessageListener(new MessageListenerConcurrently() {
             @Override
             public ConsumeConcurrentlyStatus consumeMessage(List<MessageExt> msgs, ConsumeConcurrentlyContext context) {
-                System.out.printf("%s Receive New Messages: %s %n", Thread.currentThread().getName(), msgs);
+                String mess = null;
+                for (MessageExt msg : msgs) {
+//                    System.out.printf("%s Receive New Messages: %s %n", Thread.currentThread().getName(), msgs);
+                    try {
+                        mess = new String(msg.getBody(), RemotingHelper.DEFAULT_CHARSET);
+                        System.out.printf("==%s Receive New Messages: %s %n", Thread.currentThread().getName(),mess);
+                    } catch (UnsupportedEncodingException e) {
+                        e.printStackTrace();
+                    }
+                }
                 // 标记该消息已经被成功消费
                 return ConsumeConcurrentlyStatus.CONSUME_SUCCESS;
             }

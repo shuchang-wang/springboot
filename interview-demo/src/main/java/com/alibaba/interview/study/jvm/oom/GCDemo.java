@@ -58,6 +58,25 @@ import java.util.Random;
  *      Metaspace       used 3293K, capacity 4496K, committed 4864K, reserved 1056768K
  *          class space    used 354K, capacity 388K, committed 512K, reserved 1048576K
  *
+ *  4、UseParallelOldGC
+ *  4.1 -Xms10m -Xmx10m -XX:+PrintGCDetails -XX:+PrintCommandLineFlags -XX:+UseParallelOldGC         （PSYoungGen + ParOldGen）
+ *      -XX:InitialHeapSize=10485760 -XX:MaxHeapSize=10485760 -XX:+PrintCommandLineFlags -XX:+PrintGCDetails -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseParallelOldGC
+ *      [GC (Allocation Failure) [PSYoungGen: 2048K->504K(2560K)] 2048K->908K(9728K), 0.0007640 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+ *      *********************GCDemo hello
+ *      [GC (Allocation Failure) [PSYoungGen: 2523K->504K(2560K)] 2928K->1180K(9728K), 0.0007158 secs] [Times: user=0.00 sys=0.00, real=0.00 secs]
+ *      [Full GC (Ergonomics) [PSYoungGen: 0K->0K(1536K)] [ParOldGen: 6181K->4834K(7168K)] 6181K->4834K(8704K), [Metaspace: 3252K->3252K(1056768K)], 0.0072072 secs] [Times: user=0.00 sys=0.00, real=0.01 secs]
+ *      [PSYoungGen: 0K->0K(2048K)] [ParOldGen: 4834K->4814K(7168K)] 4834K->4814K(9216K), [Metaspace: 3252K->3252K(1056768K)], 0.0061852 secs] [Times: user=0.11 sys=0.00, real=0.01 secs]
+ *      Heap
+ *      PSYoungGen      total 2048K, used 57K [0x00000000ffd00000, 0x0000000100000000, 0x0000000100000000)
+ *          eden space 1024K, 5% used [0x00000000ffd00000,0x00000000ffd0e648,0x00000000ffe00000)
+ *          from space 1024K, 0% used [0x00000000ffe00000,0x00000000ffe00000,0x00000000fff00000)
+ *          to   space 1024K, 0% used [0x00000000fff00000,0x00000000fff00000,0x0000000100000000)
+ *      ParOldGen       total 7168K, used 4814K [0x00000000ff600000, 0x00000000ffd00000, 0x00000000ffd00000)
+ *          object space 7168K, 67% used [0x00000000ff600000,0x00000000ffab3ac0,0x00000000ffd00000)
+ *      Metaspace       used 3283K, capacity 4496K, committed 4864K, reserved 1056768K
+ *          class space    used 354K, capacity 388K, committed 512K, reserved 1048576K
+ *  4.2 不加默认是UseParallelGC 。   -Xms10m -Xmx10m -XX:+PrintGCDetails -XX:+PrintCommandLineFlags      （PSYoungGen + ParOldGen）
+ *
  */
 public class GCDemo {
     public static void main(String[] args) {
