@@ -16,7 +16,7 @@ import java.util.List;
  * 那就是GC清理的这么点内存很快会再次填满，迫使GC再次执行。这样就形成恶性循环，
  * CPU使用率一直是100%，而GC却没有任何成果。
  */
-public class GCHeadDemo {
+public class GCHeadLimitDemo {
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
         int i = 0;

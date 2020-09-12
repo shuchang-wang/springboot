@@ -1,4 +1,4 @@
-package com.alibaba.interview.study.jvm.oom;
+package com.alibaba.interview.study.jvm.gc;
 
 import java.util.Random;
 
